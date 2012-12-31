@@ -670,7 +670,7 @@ void SolveSudoku::count(int i)
     }
 
     FlagsType flags;
-    switch (i) { /* assume i :: [0, 80] */
+    switch (i) {
 #include "sudoku3a.i"
     }
 
